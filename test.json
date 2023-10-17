@@ -1,0 +1,19 @@
+{
+	"title": "Basic Quiz",
+	"blankStr": "_",
+	"questions": [
+		{
+			"questionStr": "What is your name?",
+			"imgStr": "",
+			"answerStr": "Your name is _ _ _ :-)",
+			"answers": [["Will", "William"], ["Kendrick"], ["Punter"]]
+		},
+		
+		{
+			"questionStr": "What is your favourite colour?",
+			"imgStr": "",
+			"answerStr": "_ or _",
+			"answers": [["blue"], ["yellow"]]
+		}
+	]
+}
