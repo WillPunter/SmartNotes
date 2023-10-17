@@ -108,7 +108,7 @@ function checkAnswers(){
 			var correct = false;
 		
 			for(j = 0; j < quiz.questions[questionNumber].answers[i].length; j++){
-				if(userAnswer.toLowerCase() == quiz.questions[questionNumber].answers[i][j].toLowerCase()){
+				if(userAnswer.toLowerCase().replaceAll(" ", "") == quiz.questions[questionNumber].answers[i][j].toLowerCase().replaceAll(" ", "")){
 					//correct - set question to green
 					document.getElementById("ans" + i).style.color = "green";
 					document.getElementById("ans" + i).disabled = true;
